@@ -3,7 +3,13 @@
     "allow": [
       "Bash(git init:*)",
       "Bash(git remote add:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: Tic-Tac-Toe game built with React and TypeScript\n\nThis project includes:\n- Interactive Tic-Tac-Toe game component\n- React fundamentals examples (ListGroup, Alert, Buttons)\n- Bootstrap styling\n- Vite build configuration\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push:*)",
+      "Bash(git remote set-url:*)",
+      "Bash(git branch:*)",
+      "Bash(git fetch:*)",
+      "Bash(gh repo edit:*)"
     ],
     "deny": [],
     "ask": []
